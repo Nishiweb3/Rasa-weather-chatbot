@@ -155,11 +155,13 @@ venv\Scripts\activate
 pip install rasa==3.6.21
 pip install rasa-sdk==3.6.2
 pip install requests
+pip install python-dotenv
 4. Configure the OpenWeather API
 
-Add your OpenWeather API key to the weather configuration.
+Create a `.env` file in the project root:
 
-Do not upload your actual API key to GitHub.
+```env
+OPENWEATHER_API_KEY=your_api_key_here
 
 5. Train the Rasa model
 rasa train
