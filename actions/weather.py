@@ -1,8 +1,9 @@
 import requests
 import json
-
-
-api_key='API_KEYS'
+import os
+from dotenv import load_dotenv
+load_dotenv()
+api_key = os.getenv("OPENWEATHER_API_KEY")
 end_point = 'http://api.openweathermap.org/data/2.5/weather'
 def get_weather(city):
     params = {
@@ -18,4 +19,3 @@ def get_weather(city):
     feels_like = json_response['main']['feels_like']
     return main, temp, feels_like
 
-print(get_weather('Mumbai'))    
