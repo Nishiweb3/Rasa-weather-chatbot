@@ -29,6 +29,13 @@ The chatbot understands natural-language weather queries, identifies the request
 - YAML
 - Git & GitHub
 
+## Screenshots
+<img width="1072" height="360" alt="weather_update2" src="https://github.com/user-attachments/assets/dc7b2a09-74f6-4dca-ad20-63da148a3885" />
+
+<img width="1018" height="325" alt="weather_update1" src="https://github.com/user-attachments/assets/f8d0a318-6ff1-4ce0-8800-2892b9b7cc3f" />
+
+  
+
 ## 🔄 Project Flow
 
 ```text
